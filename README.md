@@ -1,3 +1,4 @@
+# 🔴 Practice Project
 # 🔴 Real-Time Chat App
 
 A simple real-time chat application built using **Node.js**, **Express.js**, **Socket.IO**, and **EJS** templating engine. This app allows users to join a chat room and communicate in real time.
