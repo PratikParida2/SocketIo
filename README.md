@@ -4,7 +4,7 @@
 A simple real-time chat application built using **Node.js**, **Express.js**, **Socket.IO**, and **EJS** templating engine. This app allows users to join a chat room and communicate in real time.
 
 ## 🚀 Features
-
+-Server Side Rendering
 - Real-time messaging with Socket.IO  
 - Join chat room with a custom username  
 - Broadcast messages to all connected users  
