@@ -16,6 +16,7 @@ app.set('view engine',"ejs");
 app.set('views', path.join(__dirname, 'views'));
 io.on('connection',(socket)=>{
     console.log("user connected");
+    console.log(socket);
     socket.on('message',(msg)=>{
         console.log(msg);
         socket.broadcast.emit('messageFromServer',msg)
